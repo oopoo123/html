@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블 연습</title>
+</head>
+<body> <!-- bgcolor=배경색, colspan="2"열 병합, rowspan="2" 2행 병합 align="center" 가운데 정렬 -->
+    <table border="1" cellspacing="0" cellpadding="0" width="400" height="300">
+      <tr bgcolor="#ABF200"> <!--<tr>은 행,줄 <td>는 열 <th>는 테이블에서 제목 줄 : 글씨가 진하게 가운데 정렬 -->
+          <th>지역</th>
+          <th>현재기온</th>
+          <th colspan="2">불쾌지수/습도(%)</th>
+          <!-- <th>습도(%)</th> -->
+          <th>풍속(m/s)</th>
+      </tr>
+      <tr align="center">
+          <td rowspan="2">서울/경기도</td>
+          <td>23</td>
+          <td>60</td>
+          <td>80</td>
+          <td>4.7</td>
+      </tr>
+      <tr>
+          <!-- <td>경기도</td> -->
+          <td>20</td>
+          <td>60</td>
+          <td>80</td>
+          <td>5.0</td>
+      </tr>
+      <tr>
+          <td>제주도</td>
+          <td>21</td>
+          <td>65</td>
+          <td>85</td>
+          <td>3.6</td>
+      </tr>
+    </table>
+</body>
+</html>
