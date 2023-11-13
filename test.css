@@ -1,0 +1,9 @@
+h1 {
+    color:red;
+    font-size:60px
+    font-family:"나눔고딕";
+    font-style:italic;
+    font-weight:bold;
+    text-decoration:underline;
+    text-shadow:5px 5px 5px gray;
+}
