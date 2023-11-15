@@ -1,0 +1,19 @@
+/*
+    스타일 시트
+*/
+
+h3#intro1 {
+    color:pink;
+    font-size:40px;
+    font-family:"맑은 고딕";
+    font-weight:bold;/* 글씨 굵게 */
+}
+
+p#intro2 {
+    color:green;
+    font-size:12px;
+}
+
+h3#text01 {
+    color:red;
+}
